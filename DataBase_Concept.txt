@@ -1,0 +1,26 @@
+                                        ****DDIC -   Basic concepts of RDMS ***
+
+               -   Data Dictionary -
+
+Data Dictionary : Data dictonary is the central resource of Database management system(RDMS).-
+
+- Two way we can create the table.
+
+1) Predefined.
+2) Data element.
+
+Note: Display/maintaince are allowed with restrication :- we can insert the data only from Program like insert query.
+
+Note 2: - Key should be in sequence.
+
+Master data :- Read the data frquently  not write the data. (APPL0 => Data class)
+
+Transaction data: changing frequently.(APPL1 => Data class)
+
+
+Delivery class => is the owner of the table and a part from that is checking what kind of data is going to stored.
+
+
+Data class => define the pysical area of database where table is going to stored
+
+
