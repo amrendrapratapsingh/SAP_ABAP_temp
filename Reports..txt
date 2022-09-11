@@ -1,0 +1,40 @@
+                                    ********************RICEF********************
+
+
+R => Reports
+I  => Interface
+C => Conersion
+E => Enhancements
+F = Forms
+
+
+Reports => is nothing but based on some input getting the  consolidated  information from the database.
+
+             ***** Programming Events***
+
+** loads of program: we cann't see this events.
+
+1) Initilization  :- To clear the global variables and fill default parameter.
+2) At selection screen :- This is used to validate the screen Inputs.this events have some sub Events such as given below.
+2.1) AT selection screen output :- This is used to make the dynamic changes in selection screen.
+2.2) AT selection screen on Help request for :- This is used to get help request for the parameter.
+2.3) At selection screen on value request for :- This is used to get the values like file path etc.
+3) start of selection :-  This is used to get the dta from the database.
+4) end of selection :- This is used to build logic and print report.
+
+** HR ABAP:- Logical database then we are using End of selection
+
+
+****  DML ** HANA , SY-BASE ,Oracle
+
+1) OPEN SQL 
+open sql => common sql syntax runs for all the databse.
+support all the database (database independent)
+
+2)Native SQl  :- Database dependent
+
+
+
+
+
+
